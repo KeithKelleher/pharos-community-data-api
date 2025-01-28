@@ -8,11 +8,11 @@
     "dev": "nodemon -e ts  --exec \"npm run compile\"",
     "prepare": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy-interactorScores": "gcloud functions deploy interactorScores --project=ncatsidg --region=us-east4 --runtime=nodejs18 --entry-point=interactorScores --trigger-http",
-    "deploy-coexpressionData": "gcloud functions deploy coexpressionData --project=ncatsidg --region=us-east4 --runtime=nodejs18 --entry-point=coexpressionData --trigger-http",
-    "deploy-predictions": "gcloud functions deploy predictions --project=ncatsidg --region=us-east4 --runtime=nodejs18 --entry-point=predictions --trigger-http",
-    "deploy-sample": "gcloud functions deploy sample --project=ncatsidg --region=us-east4 --runtime=nodejs18 --entry-point=sample --trigger-http",
-    "deploy-ping": "gcloud functions deploy ping --project=ncatsidg --region=us-east4 --runtime=nodejs18 --entry-point=ping --trigger-http"
+    "deploy-interactorScores": "gcloud functions deploy interactorScores_2 --project=ncatsidg --region=us-east4 --runtime=nodejs22 --entry-point=interactorScores --trigger-http",
+    "deploy-coexpressionData": "gcloud functions deploy coexpressionData_2 --project=ncatsidg --region=us-east4 --runtime=nodejs22 --entry-point=coexpressionData --trigger-http",
+    "deploy-predictions": "gcloud functions deploy predictions_2 --project=ncatsidg --region=us-east4 --runtime=nodejs22 --entry-point=predictions --trigger-http",
+    "deploy-sample": "gcloud functions deploy sample_2 --project=ncatsidg --region=us-east4 --runtime=nodejs22 --entry-point=sample --trigger-http",
+    "deploy-ping": "gcloud functions deploy ping_2 --project=ncatsidg --region=us-east4 --runtime=nodejs22 --entry-point=ping --trigger-http"
   },
   "repository": {
     "type": "git",
